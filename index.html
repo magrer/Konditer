@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кондитерская Сладкий Тортик</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>🍰 Сладкий Тортик</h1>
+        </div>
+        <nav>
+            <a href="#about">О кондитере</a>
+            <a href="#gallery">Галерея</a>
+            <a href="#video">Видео</a>
+            <a href="#recipes">Рецепты</a>
+        </nav>
+    </header>
+
+    <section class="slider">
+        <div class="slide active">
+            <img src="images/slider_1.jpg" alt="Торт">
+            <h2>Авторские торты</h2>
+        </div>
+        <div class="slide">
+            <img src="images/slider_2.jpg" alt="Пирожные">
+            <h2>Нежные пирожные</h2>
+        </div>
+        <div class="slide">
+            <img src="images/slider_3.jpg" alt="Печенье">
+            <h2>Ароматное печенье</h2>
+        </div>
+        <button class="prev">‹</button>
+        <button class="next">›</button>
+    </section>
+
+    <section id="about" class="about">
+        <h2>О кондитере</h2>
+        <p>Привет! Я профессиональный кондитер. Создаю вкусные и красивые десерты на заказ. Каждый торт - это произведение искусства, приготовленное с любовью.</p>
+        <p>Работаю с 2015 года. Специализируюсь на свадебных тортах, детских десертах и праздничной выпечке.</p>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Галерея работ</h2>
+        <div class="gallery-grid">
+            <img src="images/gallery_1.jpg" alt="Десерт 1">
+            <img src="images/gallery_2.jpg" alt="Десерт 2">
+            <img src="images/gallery_3.jpg" alt="Десерт 3">
+            <img src="images/gallery_4.jpg" alt="Десерт 4">
+            <img src="images/gallery_5.jpg" alt="Десерт 5">
+            <img src="images/gallery_6.jpg" alt="Десерт 6">
+            <img src="images/gallery_7.jpg" alt="Десерт 7">
+            <img src="images/gallery_8.jpg" alt="Десерт 8">
+            <img src="images/gallery_9.jpg" alt="Десерт 9">
+        </div>
+    </section>
+
+    <section id="video" class="video">
+        <h2>Видео приготовления</h2>
+        <div class="video-wrapper">
+            <!-- ЗАМЕНИТЕ "my-cake-video.mp4" НА НАЗВАНИЕ ВАШЕГО ВИДЕО -->
+            <video controls>
+                <source src="video/my-cake-video.mp4" type="video/mp4">
+                Ваш браузер не поддерживает видео.
+            </video>
+        </div>
+        <div class="video-help">
+    <h3>Ингредиенты ⤵️</h3>
+    
+    <h4>Для тарталеточного теста:</h4>
+    <ul>
+        <li><strong>Сливочное масло</strong> - 125 г</li>
+        <li><strong>Яйцо</strong> - 1 шт</li>
+        <li><strong>Разрыхлитель</strong> - 1 ч.л</li>
+        <li><strong>Сахар</strong> - 3 ст.л</li>
+        <li><strong>Мука</strong> - 250 г</li>
+    </ul>
+    
+    <h4>Для творожной начинки:</h4>
+    <ul>
+        <li><strong>Творог</strong> - 500 г</li>
+        <li><strong>Яйца</strong> - 2 шт</li>
+        <li><strong>Цедра лимона</strong> - 1 ч.л</li>
+        <li><strong>Ванилин</strong> - 1 шт</li>
+        <li><strong>Крахмал</strong> - 2 ст.л</li>
+        <li><strong>Сахар</strong> - 4 ст.л</li>
+    </ul>
+    
+    <h4>Для украшения:</h4>
+    <ul>
+        <li><strong>Ежевика</strong></li>
+        <li><strong>Хлопья миндаля</strong></li>
+    </ul>
+</div>
+    </section>
+
+    <section id="recipes" class="recipes">
+        <h2>Рецепты</h2>
+        <div class="recipe-cards">
+            <div class="card">
+                <h3>Шоколадный торт</h3>
+                <p>Муки: 200г, какао: 50г, сахар: 150г, яйца: 3 шт.</p>
+                <p>Выпекать 30 минут при 180°C</p>
+            </div>
+            <div class="card">
+                <h3>Чизкейк</h3>
+                <p>Сыр: 500г, сливки: 200мл, печенье: 250г, сахар: 100г.</p>
+                <p>Охлаждать 6 часов</p>
+            </div>
+            <div class="card">
+                <h3>Медовик</h3>
+                <p>Мед: 100г, сметана: 200г, мука: 300г, яйца: 2 шт.</p>
+                <p>Выпекать 20 минут при 170°C</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Кондитерская "Сладкий Тортик"</h3>
+                <p>Тел: +7 (XXX) XXX-XX-XX</p>
+                <p>Email: info@tortik.ru</p>
+            </div>
+            <div class="social">
+                <a href="#">Instagram</a>
+                <a href="#">ВКонтакте</a>
+                <a href="#">YouTube</a>
+            </div>
+        </div>
+        <p class="copyright">© 2024 Сладкий Тортик. Все права защищены.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
